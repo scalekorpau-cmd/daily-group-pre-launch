@@ -1,0 +1,22 @@
+Brand,URL,Category,Expected_phone,HTTP,Phones_snippet,Match,Notes
+DailyClean,https://dailyclean.com.au,dailyclean,+61 8 6189 4913,200,+61861894913 | +61 8 6189 4913 | tel:+61861894913,OK,"Found expected bucket digit forms: ['0861894913', '61861894913']"
+PowerBath,https://powerbath.com.au,cleaning_fleet,(08) 6384 5466,200,+61863845466 | (08) 6384 5466 | +61-8-6384-5466 | tel:+61863845466,OK,"Found expected bucket digit forms: ['0863845466', '61863845466']"
+Outreach Clean,https://outreachclean.com.au,cleaning_fleet,(08) 6384 5466,200,+61-8-6189-4913,REVIEW,"Digit forms found ['0861894913', '61861894913'] — compare to expected (08) 6384 5466"
+DueClean,https://dueclean.com.au,cleaning_fleet,(08) 6384 5466,-1,,HTTP_FAIL,<urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1081)>
+Cleanse Group,https://cleansegroup.com.au,cleaning_fleet,(08) 6384 5466,200,,NO_PHONE_FOUND,No obvious phone pattern in HTML (check client-rendered content manually).
+Solar Cleanse,https://solarcleanse.com.au,cleaning_fleet,(08) 6384 5466,200,+61863845466 | (08) 6384 5466 | +61-8-6384-5466 | tel:+61863845466,OK,"Found expected bucket digit forms: ['0863845466', '61863845466']"
+Gutters Cleanse,https://gutterscleanse.com.au,cleaning_fleet,(08) 6384 5466,200,+61863845466 | (08) 6384 5466 | +61-8-6384-5466 | tel:+61863845466,OK,"Found expected bucket digit forms: ['0863845466', '61863845466']"
+Daily Group,https://thedailygroup.com.au,corporate_hq,+61 8 6189 4913,200,,NO_PHONE_FOUND,No obvious phone pattern in HTML (check client-rendered content manually).
+Kaltos Group,https://kaltosgroup.com.au,corporate_hq,+61 8 6189 4913,200,,NO_PHONE_FOUND,No obvious phone pattern in HTML (check client-rendered content manually).
+Arkos Group,https://arkosgroup.com.au,corporate_hq,+61 8 6189 4913,200,,NO_PHONE_FOUND,No obvious phone pattern in HTML (check client-rendered content manually).
+Vantix Capital,https://vantixcapital.com.au,corporate_hq,+61 8 6189 4913,200,,NO_PHONE_FOUND,No obvious phone pattern in HTML (check client-rendered content manually).
+VATasker,https://vatasker.com,corporate_hq,+61 8 6189 4913,200,+61861894913 | (08) 6189 4913 | +61-8-6189-4913 | tel:+61861894913,OK,"Found expected bucket digit forms: ['0861894913', '61861894913']"
+ScaleKorp,https://scalekorp.com,corporate_hq,+61 8 6189 4913,200,,NO_PHONE_FOUND,No obvious phone pattern in HTML (check client-rendered content manually).
+TradesBook,https://tradesbook.com.au,corporate_hq,+61 8 6189 4913,-1,,HTTP_FAIL,<urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1081)>
+Saxum Works,https://saxumworks.com.au,cleaning_fleet,(08) 6384 5466,200,+61863845466 | (08) 6384 5466 | +61-8-6384-5466 | tel:+61863845466,OK,"Found expected bucket digit forms: ['0863845466', '61863845466']"
+Kaltos Projects,https://kaltosprojects.com.au,corporate_hq,+61 8 6189 4913,-1,,HTTP_FAIL,<urlopen error [Errno 11001] getaddrinfo failed>
+DailyReset,https://dailyreset.com.au,corporate_hq,+61 8 6189 4913,-1,,HTTP_FAIL,<urlopen error [Errno 11001] getaddrinfo failed>
+Stratis Civil,https://stratiscivil.com.au,corporate_hq,+61 8 6189 4913,-1,,HTTP_FAIL,<urlopen error [Errno 11001] getaddrinfo failed>
+Stratis Landscape,https://stratislandscape.com.au,corporate_hq,+61 8 6189 4913,-1,,HTTP_FAIL,<urlopen error [Errno 11001] getaddrinfo failed>
+DueClean preview,https://sienna-wolverine-539565.hostingersite.com,cleaning_fleet,(08) 6384 5466,200,+61863845466 | (08) 6384 5466 | +61-8-6384-5466 | tel:+61863845466,OK,"Found expected bucket digit forms: ['0863845466', '61863845466']"
+ScaleKorp preview,https://tan-caribou-397506.hostingersite.com,corporate_hq,+61 8 6189 4913,200,+61861894913 | +61-8-6189-4913 | +61 8 6189 4913 | tel:+61861894913,OK,"Found expected bucket digit forms: ['0861894913', '61861894913']"

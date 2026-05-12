@@ -1,0 +1,17 @@
+master-tracker.csv was locked (open in Excel or another app).
+
+1) Close any program that has master-tracker.csv open.
+2) Replace the file with the copy that has legal tasks marked Done:
+
+   Rename or delete:
+     C:\Users\DELL\daily-group-pre-launch\tracking\master-tracker.csv
+
+   Then rename:
+     C:\Users\DELL\daily-group-pre-launch\tracking\MASTER_TRACKER_COPY_WITH_LEGAL_DONE.csv
+   to:
+     master-tracker.csv
+
+   (Or copy-paste the first four data rows from the COPY file into your tracker.)
+
+Marked Done: U-LEGAL-001, U-LEGAL-002, U-LEGAL-003 (Terms, Privacy, Cookies live + footer links).
+Left TODO: U-LEGAL-004 onward (unchanged).

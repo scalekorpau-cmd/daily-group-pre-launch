@@ -1,0 +1,15 @@
+Form test matrix (copy per brand)
+---------------------------------
+Brand:
+Form name / URL:
+GHL pipeline / workflow:
+Test date:
+Tester:
+Result (pass/fail):
+Screenshots path (under _incoming\evidence-screenshots):
+
+Test steps:
+1. Submit with valid data
+2. Confirm GHL contact created
+3. Confirm notification email to internal owner
+4. Confirm auto-reply to submitter (if enabled)

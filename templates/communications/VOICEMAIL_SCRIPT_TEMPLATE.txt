@@ -1,0 +1,6 @@
+[Brand name] — voicemail script (30–45 seconds)
+-----------------------------------------------
+You have reached [Brand]. We [one-line value proposition].
+Please leave your name, phone number, and the best time to return your call.
+For urgent matters, [optional: alternate number or email].
+[A Kaltos Group company | Part of Daily Group] — adjust parent line per brand.

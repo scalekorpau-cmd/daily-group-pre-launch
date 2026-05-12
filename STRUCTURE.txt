@@ -1,0 +1,43 @@
+daily-group-pre-launch/
+├── README.txt
+├── STRUCTURE.txt                    (this tree)
+├── _reference/
+│   └── phone-and-contact-matrix.txt
+├── _incoming/
+│   ├── evidence-screenshots/        (form tests, SSL checks, mobile screenshots)
+│   └── legal-signed-pdfs/         (Terms, Privacy, COI, etc.)
+├── tracking/
+│   ├── build_tracker.py           (regenerate CSVs: py build_tracker.py)
+│   ├── master-tracker.csv         (single source of truth — all tasks)
+│   └── by-brand/                  (one CSV per brand + all.csv)
+├── 01-universal-standards/
+│   ├── legal/
+│   ├── trust-assets/
+│   ├── technical-infrastructure/
+│   ├── communication/
+│   └── testing/
+├── 02-daily-group/                (thedailygroup.com.au)
+├── 03-kaltos-group/               (kaltosgroup.com.au)
+├── 04-arkos-group/                (arkosgroup.com.au)
+├── 05-vantix-capital/             (vantixcapital.com.au)
+├── 06-dailyclean/                 (dailyclean.com.au)
+├── 07-powerbath/                  (powerbath.com.au)
+├── 08-outreach-clean/             (outreachclean.com.au)
+├── 09-dueclean/                   (dueclean.com.au + staging site notes)
+├── 10-saxum-works/                (saxumworks.com.au)
+├── 11-cleanse-group/              (cleansegroup.com.au)
+├── 12-solar-cleanse/              (solarcleanse.com.au)
+├── 13-gutters-cleanse/            (gutterscleanse.com.au)
+├── 14-vatasker/                   (vatasker.com)
+├── 15-scalekorp/                  (scalekorp.com + staging site notes)
+├── 21-tradesbook/                 (tradesbook.com.au — Arkos)
+├── 16-cross-brand-ecosystem/
+├── 17-social-and-google-business/
+├── 18-launch-week-timeline/
+├── 19-launch-day-emergency-kit/
+├── 20-post-launch-30-day-review/
+└── templates/
+    ├── legal/
+    ├── forms-and-ghl/
+    ├── communications/
+    └── trust-and-compliance/

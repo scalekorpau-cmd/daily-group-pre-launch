@@ -1,0 +1,29 @@
+Phone and contact — reconcile with legal/comms before launch
+==============================================================
+
+Last aligned with email signature build (May 2026). Your master checklist PDF may still list
+(08) 6189 4913 in places — update every surface (site footer, GBP, IVR, forms) to match ONE matrix.
+
+A) DailyClean ONLY (dailyclean.com.au)
+   Phone: +61 8 6189 4913  (tel +61861894913)
+   Office: Level 28, 140 St Georges Terrace, Perth WA 6000
+
+B) Other Kaltos FM / Cleanse field brands (shared fleet line)
+   Brands: Outreach Clean, Saxum Works, PowerBath, DueClean, Cleanse Group, Solar Cleanse, Gutters Cleanse
+   Phone: (08) 6384 5466  (tel +61863845466)
+   Coverage line (no CBD street): Greater Perth, Western Australia — all suburbs (Yanchep to Mandurah).
+
+C) Corporate / parent / Arkos pillar brands (HQ presentation)
+   Brands: Daily Group, Kaltos Group, Arkos Group, Vantix, Stratis*, Kaltos Projects, Daily Fix,
+           Telos, DailyReset, VATasker, ScaleKorp, TradesBook, Eboost, Gesut, NicheBucket
+   Phone: +61 8 6189 4913
+   Office: Level 28, 140 St Georges Terrace, Perth WA 6000
+
+*Stratis and other matrix brands: add rows here when live.
+
+Staging (temporary web)
+-----------------------
+DueClean preview:  sienna-wolverine-539565.hostingersite.com
+ScaleKorp preview: tan-caribou-397506.hostingersite.com
+
+When production DNS is live, remove staging from customer-facing materials.

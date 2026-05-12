@@ -1,0 +1,9 @@
+Workstream,Brand,Task_ID,Task,Priority,Owner,Status,Due_Date,Evidence_Link,Notes
+parent,Daily Group,DG-01,"Website live: homepage, about, contact",CRITICAL,TBD,TODO,,,
+parent,Daily Group,DG-02,Our Brands page: all subsidiaries logos + links,CRITICAL,TBD,TODO,,,
+parent,Daily Group,DG-03,Ecosystem diagram (visual hierarchy),CRITICAL,TBD,TODO,,,
+parent,Daily Group,DG-04,Footer: no parent line (top of hierarchy),CRITICAL,TBD,TODO,,,
+parent,Daily Group,DG-05,Contact: phone + address match approved matrix,CRITICAL,TBD,TODO,,,
+parent,Daily Group,DG-06,LinkedIn Company Page created,CRITICAL,TBD,TODO,,,
+parent,Daily Group,DG-07,Google Business Profile optimised,HIGH,TBD,TODO,,,
+social-gbp,Daily Group,SOC-01,LinkedIn/IG/FB as per matrix: profile + cover + bio live,HIGH,TBD,TODO,,,

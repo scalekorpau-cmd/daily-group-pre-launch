@@ -1,0 +1,17 @@
+Workstream,Brand,Task_ID,Task,Priority,Owner,Status,Due_Date,Evidence_Link,Notes
+universal,ALL,U-LEGAL-001,Terms & Conditions published on every website,CRITICAL,,Done,,https://github.com/orgs/scalekorpau-cmd/repositories,"Static public/terms.html + footer link; pushed main all site repos."
+universal,ALL,U-LEGAL-002,Privacy Policy published on every website,CRITICAL,,Done,,https://github.com/orgs/scalekorpau-cmd/repositories,"Static public/privacy.html + footer link; same rollout as U-LEGAL-001."
+universal,ALL,U-LEGAL-003,Cookies Policy published on every website,CRITICAL,,Done,,https://github.com/orgs/scalekorpau-cmd/repositories,"Static public/cookies.html + footer link; TradesBook marketing footer includes /cookies.html."
+universal,ALL,U-LEGAL-004,Service agreements drafted per brand where applicable,CRITICAL,,TODO,,,
+universal,ALL,U-TRUST-001,Certificate of Currency ($20M PL) downloadable per relevant brand,HIGH,,TODO,,,
+universal,ALL,U-TECH-001,SSL/HTTPS verified on every domain,CRITICAL,,TODO,,,
+universal,ALL,U-TECH-002,GA4 installed + basic events documented,HIGH,,TODO,,,
+universal,ALL,U-TECH-003,Search Console verified per domain,HIGH,,TODO,,,
+universal,ALL,U-COMM-001,Contact form test matrix completed (submit to GHL),CRITICAL,,TODO,,,
+parent,Daily Group,P-DG-001,Homepage + About + Contact live,CRITICAL,,TODO,,,
+parent,Daily Group,P-DG-002,Our Brands page + ecosystem diagram,CRITICAL,,TODO,,,
+operations,DailyClean,O-DC-001,Minimum 3 case studies with measurable outcomes,CRITICAL,,TODO,,,
+operations,DailyClean,O-DC-002,Asset Assessment form → GHL pipeline,CRITICAL,,TODO,,,
+digital,VATasker,D-VT-001,Security & Confidentiality page published,CRITICAL,,TODO,,,
+digital,ScaleKorp,D-SK-001,M&A disclaimer (not licensed broker) prominent,CRITICAL,,TODO,,,
+cross-brand,ALL,X-001,Footer parent line consistent across all live sites,HIGH,,TODO,,,

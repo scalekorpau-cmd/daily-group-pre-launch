@@ -1,0 +1,107 @@
+HOW TO EDIT repos-legal-manifest.json (step by step)
+====================================================
+
+The file lives here:
+  C:\Users\DELL\daily-group-pre-launch\scripts\repos-legal-manifest.json
+
+It is pre-filled with TEN site blocks (scalekorpau-cmd/*-web plus tradesbook).
+Fix LEGAL_ENTITY_NAME and ABN everywhere, confirm each "branch" (default main),
+then set "skip": false only for repos you are ready to push.
+
+If a repo uses "master" instead of "main", change "branch" for that block only.
+
+You can open that folder in File Explorer, then double-click the JSON file.
+Windows may open it in Notepad — that is fine. For fewer mistakes, install
+"VS Code" and open the file there (it highlights errors).
+
+
+STEP 1 — Open the file
+----------------------
+Press Win+R, paste this, press Enter:
+
+  notepad "C:\Users\DELL\daily-group-pre-launch\scripts\repos-legal-manifest.json"
+
+(or use VS Code:  code "C:\Users\DELL\daily-group-pre-launch\scripts\repos-legal-manifest.json")
+
+
+STEP 2 — One block = one website repo
+--------------------------------------
+You see one block inside [ square brackets ] that starts with { and ends with }.
+That is ONE repository. For each extra site, you add another full { ... } block
+AFTER the first one, with a COMMA between them.
+
+Example with TWO sites (copy the pattern; fix commas — only BETWEEN blocks):
+
+[
+  {
+    "id": "dailyclean-site",
+    "gitUrl": "https://github.com/YOUR_ORG/dailyclean.git",
+    "branch": "main",
+    "skip": false,
+    "relativeTarget": "public",
+    "commitMessage": "Add static privacy, terms, and cookies pages (Daily Group legal sync)",
+    "placeholders": {
+      "BRAND_DISPLAY_NAME": "DailyClean",
+      "WEBSITE_URL": "https://dailyclean.com.au",
+      "LEGAL_ENTITY_NAME": "Your legal entity name Pty Ltd",
+      "ABN": "12 345 678 901",
+      "DATE_DD_MONTH_YYYY": "11 May 2026",
+      "PRIVACY_EMAIL": "admin@dailyclean.com.au",
+      "CONTACT_EMAIL": "admin@dailyclean.com.au",
+      "CONTACT_PHONE": "+61 8 6189 4913",
+      "POSTAL_ADDRESS": "Level 28, 140 St Georges Terrace, Perth WA 6000, Australia"
+    }
+  },
+  {
+    "id": "another-brand-site",
+    "gitUrl": "https://github.com/YOUR_ORG/other-repo.git",
+    "branch": "main",
+    "skip": true,
+    "relativeTarget": "public",
+    "commitMessage": "Add static privacy, terms, and cookies pages (Daily Group legal sync)",
+    "placeholders": {
+      "BRAND_DISPLAY_NAME": "Other Brand",
+      "WEBSITE_URL": "https://otherbrand.com.au",
+      "LEGAL_ENTITY_NAME": "Other Pty Ltd",
+      "ABN": "12 345 678 901",
+      "DATE_DD_MONTH_YYYY": "11 May 2026",
+      "PRIVACY_EMAIL": "privacy@otherbrand.com.au",
+      "CONTACT_EMAIL": "admin@otherbrand.com.au",
+      "CONTACT_PHONE": "+61 8 6384 5466",
+      "POSTAL_ADDRESS": "Level 28, 140 St Georges Terrace, Perth WA 6000, Australia"
+    }
+  }
+]
+
+Important: the last block must NOT have a comma after its closing }.
+
+
+STEP 3 — Fill in real values
+----------------------------
+  id            Short name for you (letters, no spaces is easiest), e.g. "dailyclean"
+  gitUrl        The green "Code" URL from GitHub (HTTPS), e.g. https://github.com/org/repo.git
+  branch        Usually "main"
+  skip          true  = this repo is IGNORED by the script (safe while learning)
+                false = script will clone, write HTML, commit, push (only when ready)
+  relativeTarget Usually "public" if your site serves files from a /public folder
+
+  placeholders  Same keys for every site; change the VALUES per brand (ABN, emails, phone, URL).
+
+
+STEP 4 — When to use skip: true
+-------------------------------
+Use skip: true if:
+  - You are not ready to push yet
+  - The project is React/Next and legal pages are coded as components, not raw HTML in public/
+
+Use skip: false only when you are sure the repo has a folder like public/ and pushing
+three .html files there is correct for that site.
+
+
+STEP 5 — Run the sync (after saving the file)
+---------------------------------------------
+In PowerShell:
+
+  powershell -ExecutionPolicy Bypass -File "C:\Users\DELL\daily-group-pre-launch\scripts\Sync-LegalToRepos.ps1"
+
+If JSON is broken (missing comma, extra comma), the script will error — fix the file and try again.
