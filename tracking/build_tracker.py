@@ -339,6 +339,18 @@ add("post-launch", "ALL", "PL-06", "30-day: LinkedIn engagement trend", "MEDIUM"
 add("post-launch", "ALL", "PL-07", "30-day: combined web traffic vs target", "HIGH")
 add("post-launch", "ALL", "PL-08", "30-day: first 20 reviews progress service brands", "HIGH")
 
+# --- Post-launch growth: cold email, marketing, sales (see 22-post-launch-growth-outreach/) ---
+add("growth-outreach", "ALL", "GO-01", "Post-launch growth pack adopted (folder 22 + templates/outreach-cold-email)", "HIGH")
+add("growth-outreach", "ALL", "GO-02", "Sending domain: SPF + DKIM + DMARC verified (every brand domain that sends mail)", "CRITICAL")
+add("growth-outreach", "ALL", "GO-03", "Marketing footer: unsubscribe + business identification on all bulk sends", "CRITICAL")
+add("growth-outreach", "ALL", "GO-04", "Suppression workflow live (GHL + export backup)", "HIGH")
+add("growth-outreach", "ALL", "GO-05", "ICP one-pager completed per B2B outbound brand (ScaleKorp, VATasker, TradesBook, Vantix)", "HIGH")
+add("growth-outreach", "ALL", "GO-06", "Cold email sequence v1 drafted + commercial/legal review", "MEDIUM")
+add("growth-outreach", "ALL", "GO-07", "LinkedIn outbound SOP (connect note + DM) aligned with email narrative", "MEDIUM")
+add("growth-outreach", "ALL", "GO-08", "Weekly outbound metrics dashboard (sends, replies, meetings) by brand", "MEDIUM")
+add("growth-outreach", "ALL", "GO-09", "Service brands: local growth plan (GBP, referrals, partnerships) — not consumer cold lists", "HIGH")
+add("growth-outreach", "ALL", "GO-10", "Nurture track for inbound opt-ins (welcome + 3-value emails) per major brand", "MEDIUM")
+
 
 def slug(brand: str) -> str:
     return (

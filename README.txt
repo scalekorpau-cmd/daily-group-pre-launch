@@ -33,6 +33,8 @@ Folder map (quick)
 18                       Launch week timeline (runbooks)
 19                       Launch day emergency kit (contacts, backups)
 20                       Post-launch 30-day metrics review
+21                       TradesBook (Arkos digital)
+22                       Post-launch growth: cold email, LinkedIn SOP, suppression, ICP (see templates/outreach-cold-email)
 templates                Reusable outlines (legal placeholders, GHL field specs, scripts)
                            + ai-task-routing/ (Claude vs Genspark per-brand matrix)
 _reference               Source-of-truth notes (phones, addresses) — reconcile with live sites
