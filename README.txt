@@ -16,6 +16,10 @@ How to use
    Per-brand slices: tracking\by-brand\*.csv
 4. Put final signed legal PDFs and certificates in _incoming\legal-signed-pdfs and _incoming\evidence-screenshots.
 
+Related work on GitHub
+----------------------
+- Post-launch growth / cold outreach (separate repo): https://github.com/scalekorpau-cmd/daily-group-post-launch
+
 Related work already on this machine
 --------------------------------------
 - Email signatures (generated HTML): C:\Users\DELL\email-signatures\
@@ -34,7 +38,6 @@ Folder map (quick)
 19                       Launch day emergency kit (contacts, backups)
 20                       Post-launch 30-day metrics review
 21                       TradesBook (Arkos digital)
-22                       Post-launch growth: cold email, LinkedIn SOP, suppression, ICP (see templates/outreach-cold-email)
 templates                Reusable outlines (legal placeholders, GHL field specs, scripts)
                            + ai-task-routing/ (Claude vs Genspark per-brand matrix)
 _reference               Source-of-truth notes (phones, addresses) — reconcile with live sites

@@ -36,7 +36,6 @@ daily-group-pre-launch/
 ├── 18-launch-week-timeline/
 ├── 19-launch-day-emergency-kit/
 ├── 20-post-launch-30-day-review/
-├── 22-post-launch-growth-outreach/   (cold email, sales motion, post-launch growth — see README)
 └── templates/
     ├── legal/
     ├── forms-and-ghl/

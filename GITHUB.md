@@ -9,4 +9,4 @@ This folder is the **Daily Group pre-launch workspace**: trackers, brand runbook
 
 **AI tooling (all brands):** `01-universal-standards/communication/CLAUDE_VS_GENSPARK_ROUTING.md` and `templates/ai-task-routing/PER_BRAND_APPLICABILITY.md`. Regenerate CSVs after `build_tracker.py` edits: `py tracking\build_tracker.py`.
 
-**Post-launch growth / outbound:** `22-post-launch-growth-outreach/` and `templates/outreach-cold-email/` (playbook + sequences + GHL field map).
+**Post-launch growth / outbound (separate repo):** https://github.com/scalekorpau-cmd/daily-group-post-launch — cold email playbooks, sequences, GO-* task CSV; not stored in this pre-launch folder.

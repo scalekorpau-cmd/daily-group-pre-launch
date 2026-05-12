@@ -39,4 +39,4 @@ Active brands align with `tracking/build_tracker.py` social / launch set.
 - **Case study web:** **Claude** for embeddable site sections; **Genspark** optional for leave-behind PDF.
 - **Newsletter:** one **Claude** master HTML with brand tokens; roll out Later unless email is already live.
 
-Update this table when a brand’s go-to-market changes; keep evidence links in `tracking/master-tracker.csv` after `python tracking/build_tracker.py`.
+Update this table when a brand’s go-to-market changes; keep evidence links in `tracking/master-tracker.csv` after `python tracking/build_tracker.py`. **Post-launch outbound tasks (GO-*)** live in the separate repo **daily-group-post-launch** (`tracking/TASKS.csv`).
