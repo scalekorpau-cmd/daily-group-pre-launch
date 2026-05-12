@@ -58,6 +58,12 @@ add(u, "ALL", "U-TST-04", "Test every contact form → GHL → notification", "C
 add(u, "ALL", "U-TST-05", "Test key mailboxes (admin@, support@, etc.)", "CRITICAL")
 add(u, "ALL", "U-TST-06", "Verify all automated responses", "HIGH")
 
+# --- AI tooling (Claude vs Genspark) — see 01-universal-standards/communication/ + templates/ai-task-routing/ ---
+add(u, "ALL", "U-AI-01", "AI production routing adopted (Claude: web/forms/HTML vs Genspark: PDFs/print/visuals)", "HIGH")
+add(u, "ALL", "U-AI-02", "Per-brand AI applicability matrix reviewed and owners assigned", "HIGH")
+add(u, "ALL", "U-AI-03", "Master case study HTML template (Claude) with brand token slots for reuse", "MEDIUM")
+add(u, "ALL", "U-AI-04", "Master newsletter HTML template (Claude) with brand token slots", "LOW")
+
 # --- Part 3: Parents ---
 def parent(prefix: str, brand: str, items: list[tuple[str, str, str]]) -> None:
     for tid, task, pri in items:

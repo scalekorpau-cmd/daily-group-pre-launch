@@ -16,6 +16,9 @@ technical-infrastructure/
 communication/
   IVR scripts, voicemail scripts, auto-reply email HTML, CRM pipeline naming conventions,
   lead SLA doc, crisis comms draft.
+  AI tool routing (which deliverables use Claude vs Genspark): see
+  communication/CLAUDE_VS_GENSPARK_ROUTING.md
+  Per-brand matrix: ../templates/ai-task-routing/PER_BRAND_APPLICABILITY.md
 
 testing/
   Test logs: form submissions, phone tests, email deliverability (SPF/DKIM/DMARC),

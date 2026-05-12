@@ -10,6 +10,7 @@ How to use
 2. For each brand folder (06–15), store drafts, PDFs, screenshots, and completed evidence under that brand only.
    Legal page HTML templates (lawyer review required): 01-universal-standards\legal\*.html
 3. Update tracking\master-tracker.csv as tasks move (Notepad, Excel, or Google Sheets import).
+   Source of truth for the full grid: py tracking\build_tracker.py (regenerates master + by-brand).
    To regenerate all rows from the checklist script after edits:
      py C:\Users\DELL\daily-group-pre-launch\tracking\build_tracker.py
    Per-brand slices: tracking\by-brand\*.csv
@@ -33,6 +34,7 @@ Folder map (quick)
 19                       Launch day emergency kit (contacts, backups)
 20                       Post-launch 30-day metrics review
 templates                Reusable outlines (legal placeholders, GHL field specs, scripts)
+                           + ai-task-routing/ (Claude vs Genspark per-brand matrix)
 _reference               Source-of-truth notes (phones, addresses) — reconcile with live sites
 tracking                 master-tracker.csv + optional exports in by-brand\
 
