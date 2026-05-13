@@ -8,4 +8,7 @@ Regenerate from checklist definition (overwrites CSVs):
 
 Edit the task list in: build_tracker.py (ROWS / add() calls), then re-run.
 
-If you already filled Status in Excel, export a backup before regenerating — the script resets Owner to TBD and Status to TODO.
+Completed rows that must survive regeneration: edit TASK_COMPLETION at the top of
+build_tracker.py (Status, Evidence_Link, Notes). All other rows reset to TODO on each run.
+
+If you maintain extra columns only in Excel, export a backup before regenerating.

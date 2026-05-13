@@ -14,6 +14,15 @@ BY_BRAND = ROOT / "by-brand"
 # priority: CRITICAL | HIGH | MEDIUM | LOW
 ROWS: list[tuple[str, str, str, str, str]] = []
 
+# Persisted completion (survives `py build_tracker.py`). (Status, Evidence_Link, Notes)
+TASK_COMPLETION: dict[str, tuple[str, str, str]] = {
+    "U-LEG-01": ("Done", "https://github.com/scalekorpau-cmd", "Terms published site-wide; footer + /terms.html per repo."),
+    "U-LEG-02": ("Done", "https://github.com/scalekorpau-cmd", "Privacy published site-wide; footer + /privacy.html per repo."),
+    "U-LEG-03": ("Done", "https://github.com/scalekorpau-cmd", "Cookies published site-wide; footer + /cookies.html per repo."),
+    "U-LEG-08": ("Done", "https://github.com/scalekorpau-cmd/scalekorp-web", "Banner + /disclaimer.html + footer link + contact page."),
+    "SK-02": ("Done", "https://github.com/scalekorpau-cmd/scalekorp-web", "M&A / licensing disclaimer prominent site-wide."),
+}
+
 def add(ws: str, brand: str, tid: str, task: str, pri: str) -> None:
     ROWS.append((ws, brand, tid, task, pri))
 
@@ -356,7 +365,10 @@ def main() -> None:
         w = csv.writer(f)
         w.writerow(header)
         for ws, brand, tid, task, pri in ROWS:
-            w.writerow([ws, brand, tid, task, pri, "TBD", "TODO", "", "", ""])
+            owner, status, due, evidence, notes = ("TBD", "TODO", "", "", "")
+            if tid in TASK_COMPLETION:
+                status, evidence, notes = TASK_COMPLETION[tid]
+            w.writerow([ws, brand, tid, task, pri, owner, status, due, evidence, notes])
 
     by_brand: dict[str, list] = defaultdict(list)
     for row in ROWS:
@@ -368,7 +380,10 @@ def main() -> None:
             w = csv.writer(f)
             w.writerow(header)
             for ws, br, tid, task, pri in rows:
-                w.writerow([ws, br, tid, task, pri, "TBD", "TODO", "", "", ""])
+                owner, status, due, evidence, notes = ("TBD", "TODO", "", "", "")
+                if tid in TASK_COMPLETION:
+                    status, evidence, notes = TASK_COMPLETION[tid]
+                w.writerow([ws, br, tid, task, pri, owner, status, due, evidence, notes])
 
     print(f"Wrote {MASTER} ({len(ROWS)} tasks)")
     print(f"Wrote {len(by_brand)} files in {BY_BRAND}")

@@ -1,12 +1,12 @@
 Workstream,Brand,Task_ID,Task,Priority,Owner,Status,Due_Date,Evidence_Link,Notes
-universal,ALL,U-LEG-01,Terms & Conditions published on every website,CRITICAL,TBD,TODO,,,
-universal,ALL,U-LEG-02,Privacy Policy published on every website,CRITICAL,TBD,TODO,,,
-universal,ALL,U-LEG-03,Cookies Policy published on every website,CRITICAL,TBD,TODO,,,
+universal,ALL,U-LEG-01,Terms & Conditions published on every website,CRITICAL,TBD,Done,,https://github.com/scalekorpau-cmd,Terms published site-wide; footer + /terms.html per repo.
+universal,ALL,U-LEG-02,Privacy Policy published on every website,CRITICAL,TBD,Done,,https://github.com/scalekorpau-cmd,Privacy published site-wide; footer + /privacy.html per repo.
+universal,ALL,U-LEG-03,Cookies Policy published on every website,CRITICAL,TBD,Done,,https://github.com/scalekorpau-cmd,Cookies published site-wide; footer + /cookies.html per repo.
 universal,ALL,U-LEG-04,Service agreements drafted for every brand (where applicable),CRITICAL,TBD,TODO,,,
 universal,ALL,U-LEG-05,Cancellation policy published (where applicable),HIGH,TBD,TODO,,,
 universal,ALL,U-LEG-06,ABN displayed in footer of every website,CRITICAL,TBD,TODO,,,
 universal,ALL,U-LEG-07,"Professional email signatures (logo, disclaimer; ABN if required) all team",HIGH,TBD,TODO,,,
-universal,ALL,U-LEG-08,M&A disclaimer (not licensed broker) on ScaleKorp,CRITICAL,TBD,TODO,,,
+universal,ALL,U-LEG-08,M&A disclaimer (not licensed broker) on ScaleKorp,CRITICAL,TBD,Done,,https://github.com/scalekorpau-cmd/scalekorp-web,Banner + /disclaimer.html + footer link + contact page.
 universal,ALL,U-TRU-01,$20M PL insurance certificate downloadable per relevant brand,HIGH,TBD,TODO,,,
 universal,ALL,U-TRU-02,Police cleared / insured verification graphics on each website,HIGH,TBD,TODO,,,
 universal,ALL,U-TRU-03,"WA Heights certified badge where applicable (DailyClean, Solar, Gutters)",HIGH,TBD,TODO,,,
@@ -196,7 +196,7 @@ digital,TradesBook,TB-03,Primary contact form → GHL (or interim),HIGH,TBD,TODO
 digital,TradesBook,TB-04,LinkedIn Company Page + 3 starter posts,HIGH,TBD,TODO,,,
 digital,TradesBook,TB-05,Google Business Profile (if applicable) or service-area note,MEDIUM,TBD,TODO,,,
 digital,ScaleKorp,SK-01,Footer: An Arkos Group company | Part of Daily Group,CRITICAL,TBD,TODO,,,
-digital,ScaleKorp,SK-02,M&A disclaimer prominent (not licensed broker),CRITICAL,TBD,TODO,,,
+digital,ScaleKorp,SK-02,M&A disclaimer prominent (not licensed broker),CRITICAL,TBD,Done,,https://github.com/scalekorpau-cmd/scalekorp-web,M&A / licensing disclaimer prominent site-wide.
 digital,ScaleKorp,SK-03,5-Tier model explained with visuals,CRITICAL,TBD,TODO,,,
 digital,ScaleKorp,SK-04,Scale Framework / 5-Pillar diagram,CRITICAL,TBD,TODO,,,
 digital,ScaleKorp,SK-05,Minimum 3 case studies (anonymised OK),CRITICAL,TBD,TODO,,,

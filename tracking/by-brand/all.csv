@@ -1,12 +1,12 @@
 Workstream,Brand,Task_ID,Task,Priority,Owner,Status,Due_Date,Evidence_Link,Notes
-universal,ALL,U-LEG-01,Terms & Conditions published on every website,CRITICAL,TBD,TODO,,,
-universal,ALL,U-LEG-02,Privacy Policy published on every website,CRITICAL,TBD,TODO,,,
-universal,ALL,U-LEG-03,Cookies Policy published on every website,CRITICAL,TBD,TODO,,,
+universal,ALL,U-LEG-01,Terms & Conditions published on every website,CRITICAL,TBD,Done,,https://github.com/scalekorpau-cmd,Terms published site-wide; footer + /terms.html per repo.
+universal,ALL,U-LEG-02,Privacy Policy published on every website,CRITICAL,TBD,Done,,https://github.com/scalekorpau-cmd,Privacy published site-wide; footer + /privacy.html per repo.
+universal,ALL,U-LEG-03,Cookies Policy published on every website,CRITICAL,TBD,Done,,https://github.com/scalekorpau-cmd,Cookies published site-wide; footer + /cookies.html per repo.
 universal,ALL,U-LEG-04,Service agreements drafted for every brand (where applicable),CRITICAL,TBD,TODO,,,
 universal,ALL,U-LEG-05,Cancellation policy published (where applicable),HIGH,TBD,TODO,,,
 universal,ALL,U-LEG-06,ABN displayed in footer of every website,CRITICAL,TBD,TODO,,,
 universal,ALL,U-LEG-07,"Professional email signatures (logo, disclaimer; ABN if required) all team",HIGH,TBD,TODO,,,
-universal,ALL,U-LEG-08,M&A disclaimer (not licensed broker) on ScaleKorp,CRITICAL,TBD,TODO,,,
+universal,ALL,U-LEG-08,M&A disclaimer (not licensed broker) on ScaleKorp,CRITICAL,TBD,Done,,https://github.com/scalekorpau-cmd/scalekorp-web,Banner + /disclaimer.html + footer link + contact page.
 universal,ALL,U-TRU-01,$20M PL insurance certificate downloadable per relevant brand,HIGH,TBD,TODO,,,
 universal,ALL,U-TRU-02,Police cleared / insured verification graphics on each website,HIGH,TBD,TODO,,,
 universal,ALL,U-TRU-03,"WA Heights certified badge where applicable (DailyClean, Solar, Gutters)",HIGH,TBD,TODO,,,
