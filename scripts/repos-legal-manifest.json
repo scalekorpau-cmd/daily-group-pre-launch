@@ -1,16 +1,16 @@
 [
   {
-    "id": "dailyclean-web",
-    "gitUrl": "https://github.com/scalekorpau-cmd/dailyclean-web.git",
+    "id": "dailyclean",
+    "gitUrl": "https://github.com/scalekorpau-cmd/solarcleanse-web,https://github.com/scalekorpau-cmd/gutterscleanse-web,https://github.com/scalekorpau-cmd/outreachclean-web,https://github.com/scalekorpau-cmd/powerbath-web,https://github.com/scalekorpau-cmd/dueclean-web,https://github.com/scalekorpau-cmd/scalekorp-web,https://github.com/scalekorpau-cmd/vatasker-web,https://github.com/scalekorpau-cmd/SaxumWorks-web,https://github.com/scalekorpau-cmd/dailyclean-web,
     "branch": "main",
-    "skip": false,
+    "skip": true,
     "relativeTarget": "public",
     "commitMessage": "Add static privacy, terms, and cookies pages (Daily Group legal sync)",
     "placeholders": {
       "BRAND_DISPLAY_NAME": "DailyClean",
       "WEBSITE_URL": "https://dailyclean.com.au",
-      "LEGAL_ENTITY_NAME": "TradesBook Pty Ltd",
-      "ABN": "80 640 074 507",
+      "LEGAL_ENTITY_NAME": "REPLACE_WITH_LAWYER_APPROVED_LEGAL_ENTITY",
+      "ABN": "REPLACE_ABN",
       "DATE_DD_MONTH_YYYY": "11 May 2026",
       "PRIVACY_EMAIL": "admin@dailyclean.com.au",
       "CONTACT_EMAIL": "admin@dailyclean.com.au",
@@ -19,112 +19,36 @@
     }
   },
   {
-    "id": "solarcleanse-web",
-    "gitUrl": "https://github.com/scalekorpau-cmd/solarcleanse-web.git",
+    "id": "tradesbook",
+    "gitUrl": "https://github.com/scalekorpau-cmd/tradesbook.git",
     "branch": "main",
-    "skip": false,
+    "skip": true,
     "relativeTarget": "public",
     "commitMessage": "Add static privacy, terms, and cookies pages (Daily Group legal sync)",
     "placeholders": {
-      "BRAND_DISPLAY_NAME": "Solar Cleanse",
-      "WEBSITE_URL": "https://solarcleanse.com.au",
-      "LEGAL_ENTITY_NAME": "TradesBook Pty Ltd",
-      "ABN": "80 640 074 507",
+      "BRAND_DISPLAY_NAME": "TradesBook",
+      "WEBSITE_URL": "https://tradesbook.com.au",
+      "LEGAL_ENTITY_NAME": "REPLACE_WITH_LAWYER_APPROVED_LEGAL_ENTITY",
+      "ABN": "REPLACE_ABN",
       "DATE_DD_MONTH_YYYY": "11 May 2026",
-      "PRIVACY_EMAIL": "admin@solarcleanse.com.au",
-      "CONTACT_EMAIL": "admin@solarcleanse.com.au",
-      "CONTACT_PHONE": "+61 8 6384 5466",
-      "POSTAL_ADDRESS": "Greater Perth, Western Australia — all suburbs (Yanchep to Mandurah)"
+      "PRIVACY_EMAIL": "admin@tradesbook.com.au",
+      "CONTACT_EMAIL": "admin@tradesbook.com.au",
+      "CONTACT_PHONE": "+61 8 6189 4913",
+      "POSTAL_ADDRESS": "Level 28, 140 St Georges Terrace, Perth WA 6000, Australia"
     }
   },
   {
-    "id": "gutterscleanse-web",
-    "gitUrl": "https://github.com/scalekorpau-cmd/gutterscleanse-web.git",
+    "id": "scalekorp",
+    "gitUrl": "https://github.com/PLACEHOLDER_ORG/REPLACE_REPO_NAME.git",
     "branch": "main",
-    "skip": false,
-    "relativeTarget": "public",
-    "commitMessage": "Add static privacy, terms, and cookies pages (Daily Group legal sync)",
-    "placeholders": {
-      "BRAND_DISPLAY_NAME": "Gutters Cleanse",
-      "WEBSITE_URL": "https://gutterscleanse.com.au",
-      "LEGAL_ENTITY_NAME": "TradesBook Pty Ltd",
-      "ABN": "80 640 074 507",
-      "DATE_DD_MONTH_YYYY": "11 May 2026",
-      "PRIVACY_EMAIL": "admin@gutterscleanse.com.au",
-      "CONTACT_EMAIL": "admin@gutterscleanse.com.au",
-      "CONTACT_PHONE": "+61 8 6384 5466",
-      "POSTAL_ADDRESS": "Greater Perth, Western Australia — all suburbs (Yanchep to Mandurah)"
-    }
-  },
-  {
-    "id": "outreachclean-web",
-    "gitUrl": "https://github.com/scalekorpau-cmd/outreachclean-web.git",
-    "branch": "main",
-    "skip": false,
-    "relativeTarget": "public",
-    "commitMessage": "Add static privacy, terms, and cookies pages (Daily Group legal sync)",
-    "placeholders": {
-      "BRAND_DISPLAY_NAME": "Outreach Clean",
-      "WEBSITE_URL": "https://outreachclean.com.au",
-      "LEGAL_ENTITY_NAME": "TradesBook Pty Ltd",
-      "ABN": "80 640 074 507",
-      "DATE_DD_MONTH_YYYY": "11 May 2026",
-      "PRIVACY_EMAIL": "admin@outreachclean.com.au",
-      "CONTACT_EMAIL": "admin@outreachclean.com.au",
-      "CONTACT_PHONE": "+61 8 6384 5466",
-      "POSTAL_ADDRESS": "Greater Perth, Western Australia — all suburbs (Yanchep to Mandurah)"
-    }
-  },
-  {
-    "id": "powerbath-web",
-    "gitUrl": "https://github.com/scalekorpau-cmd/powerbath-web.git",
-    "branch": "main",
-    "skip": false,
-    "relativeTarget": "public",
-    "commitMessage": "Add static privacy, terms, and cookies pages (Daily Group legal sync)",
-    "placeholders": {
-      "BRAND_DISPLAY_NAME": "PowerBath",
-      "WEBSITE_URL": "https://powerbath.com.au",
-      "LEGAL_ENTITY_NAME": "TradesBook Pty Ltd",
-      "ABN": "80 640 074 507",
-      "DATE_DD_MONTH_YYYY": "11 May 2026",
-      "PRIVACY_EMAIL": "admin@powerbath.com.au",
-      "CONTACT_EMAIL": "admin@powerbath.com.au",
-      "CONTACT_PHONE": "+61 8 6384 5466",
-      "POSTAL_ADDRESS": "Greater Perth, Western Australia — all suburbs (Yanchep to Mandurah)"
-    }
-  },
-  {
-    "id": "dueclean-web",
-    "gitUrl": "https://github.com/scalekorpau-cmd/dueclean-web.git",
-    "branch": "main",
-    "skip": false,
-    "relativeTarget": "public",
-    "commitMessage": "Add static privacy, terms, and cookies pages (Daily Group legal sync)",
-    "placeholders": {
-      "BRAND_DISPLAY_NAME": "DueClean",
-      "WEBSITE_URL": "https://dueclean.com.au",
-      "LEGAL_ENTITY_NAME": "TradesBook Pty Ltd",
-      "ABN": "80 640 074 507",
-      "DATE_DD_MONTH_YYYY": "11 May 2026",
-      "PRIVACY_EMAIL": "admin@dueclean.com.au",
-      "CONTACT_EMAIL": "admin@dueclean.com.au",
-      "CONTACT_PHONE": "+61 8 6384 5466",
-      "POSTAL_ADDRESS": "Greater Perth, Western Australia — all suburbs (Yanchep to Mandurah)"
-    }
-  },
-  {
-    "id": "scalekorp-web",
-    "gitUrl": "https://github.com/scalekorpau-cmd/scalekorp-web.git",
-    "branch": "main",
-    "skip": false,
+    "skip": true,
     "relativeTarget": "public",
     "commitMessage": "Add static privacy, terms, and cookies pages (Daily Group legal sync)",
     "placeholders": {
       "BRAND_DISPLAY_NAME": "ScaleKorp",
       "WEBSITE_URL": "https://scalekorp.com",
-      "LEGAL_ENTITY_NAME": "TradesBook Pty Ltd",
-      "ABN": "80 640 074 507",
+      "LEGAL_ENTITY_NAME": "REPLACE_WITH_LAWYER_APPROVED_LEGAL_ENTITY",
+      "ABN": "REPLACE_ABN",
       "DATE_DD_MONTH_YYYY": "11 May 2026",
       "PRIVACY_EMAIL": "admin@scalekorp.com",
       "CONTACT_EMAIL": "admin@scalekorp.com",
@@ -133,17 +57,17 @@
     }
   },
   {
-    "id": "vatasker-web",
-    "gitUrl": "https://github.com/scalekorpau-cmd/vatasker-web.git",
+    "id": "vatasker",
+    "gitUrl": "https://github.com/PLACEHOLDER_ORG/REPLACE_REPO_NAME.git",
     "branch": "main",
-    "skip": false,
+    "skip": true,
     "relativeTarget": "public",
     "commitMessage": "Add static privacy, terms, and cookies pages (Daily Group legal sync)",
     "placeholders": {
       "BRAND_DISPLAY_NAME": "VATasker",
       "WEBSITE_URL": "https://vatasker.com",
-      "LEGAL_ENTITY_NAME": "TradesBook Pty Ltd",
-      "ABN": "80 640 074 507",
+      "LEGAL_ENTITY_NAME": "REPLACE_WITH_LAWYER_APPROVED_LEGAL_ENTITY",
+      "ABN": "REPLACE_ABN",
       "DATE_DD_MONTH_YYYY": "11 May 2026",
       "PRIVACY_EMAIL": "admin@vatasker.com",
       "CONTACT_EMAIL": "admin@vatasker.com",
@@ -152,17 +76,93 @@
     }
   },
   {
-    "id": "saxumworks-web",
-    "gitUrl": "https://github.com/scalekorpau-cmd/SaxumWorks-web.git",
+    "id": "vantix-capital",
+    "gitUrl": "https://github.com/PLACEHOLDER_ORG/REPLACE_REPO_NAME.git",
     "branch": "main",
-    "skip": false,
+    "skip": true,
+    "relativeTarget": "public",
+    "commitMessage": "Add static privacy, terms, and cookies pages (Daily Group legal sync)",
+    "placeholders": {
+      "BRAND_DISPLAY_NAME": "Vantix Capital",
+      "WEBSITE_URL": "https://vantixcapital.com.au",
+      "LEGAL_ENTITY_NAME": "REPLACE_WITH_LAWYER_APPROVED_LEGAL_ENTITY",
+      "ABN": "REPLACE_ABN",
+      "DATE_DD_MONTH_YYYY": "11 May 2026",
+      "PRIVACY_EMAIL": "admin@vantixcapital.com.au",
+      "CONTACT_EMAIL": "admin@vantixcapital.com.au",
+      "CONTACT_PHONE": "+61 8 6189 4913",
+      "POSTAL_ADDRESS": "Level 28, 140 St Georges Terrace, Perth WA 6000, Australia"
+    }
+  },
+  {
+    "id": "daily-group",
+    "gitUrl": "https://github.com/PLACEHOLDER_ORG/REPLACE_REPO_NAME.git",
+    "branch": "main",
+    "skip": true,
+    "relativeTarget": "public",
+    "commitMessage": "Add static privacy, terms, and cookies pages (Daily Group legal sync)",
+    "placeholders": {
+      "BRAND_DISPLAY_NAME": "Daily Group",
+      "WEBSITE_URL": "https://thedailygroup.com.au",
+      "LEGAL_ENTITY_NAME": "REPLACE_WITH_LAWYER_APPROVED_LEGAL_ENTITY",
+      "ABN": "REPLACE_ABN",
+      "DATE_DD_MONTH_YYYY": "11 May 2026",
+      "PRIVACY_EMAIL": "admin@dailygroup.com.au",
+      "CONTACT_EMAIL": "admin@dailygroup.com.au",
+      "CONTACT_PHONE": "+61 8 6189 4913",
+      "POSTAL_ADDRESS": "Level 28, 140 St Georges Terrace, Perth WA 6000, Australia"
+    }
+  },
+  {
+    "id": "outreach-clean",
+    "gitUrl": "https://github.com/PLACEHOLDER_ORG/REPLACE_REPO_NAME.git",
+    "branch": "main",
+    "skip": true,
+    "relativeTarget": "public",
+    "commitMessage": "Add static privacy, terms, and cookies pages (Daily Group legal sync)",
+    "placeholders": {
+      "BRAND_DISPLAY_NAME": "Outreach Clean",
+      "WEBSITE_URL": "https://outreachclean.com.au",
+      "LEGAL_ENTITY_NAME": "REPLACE_WITH_LAWYER_APPROVED_LEGAL_ENTITY",
+      "ABN": "REPLACE_ABN",
+      "DATE_DD_MONTH_YYYY": "11 May 2026",
+      "PRIVACY_EMAIL": "admin@outreachclean.com.au",
+      "CONTACT_EMAIL": "admin@outreachclean.com.au",
+      "CONTACT_PHONE": "+61 8 6384 5466",
+      "POSTAL_ADDRESS": "Greater Perth, Western Australia — all suburbs (Yanchep to Mandurah)"
+    }
+  },
+  {
+    "id": "cleanse-group",
+    "gitUrl": "https://github.com/PLACEHOLDER_ORG/REPLACE_REPO_NAME.git",
+    "branch": "main",
+    "skip": true,
+    "relativeTarget": "public",
+    "commitMessage": "Add static privacy, terms, and cookies pages (Daily Group legal sync)",
+    "placeholders": {
+      "BRAND_DISPLAY_NAME": "Cleanse Group",
+      "WEBSITE_URL": "https://cleansegroup.com.au",
+      "LEGAL_ENTITY_NAME": "REPLACE_WITH_LAWYER_APPROVED_LEGAL_ENTITY",
+      "ABN": "REPLACE_ABN",
+      "DATE_DD_MONTH_YYYY": "11 May 2026",
+      "PRIVACY_EMAIL": "admin@cleansegroup.com.au",
+      "CONTACT_EMAIL": "admin@cleansegroup.com.au",
+      "CONTACT_PHONE": "+61 8 6384 5466",
+      "POSTAL_ADDRESS": "Greater Perth, Western Australia — all suburbs (Yanchep to Mandurah)"
+    }
+  },
+  {
+    "id": "saxum-works",
+    "gitUrl": "https://github.com/PLACEHOLDER_ORG/REPLACE_REPO_NAME.git",
+    "branch": "main",
+    "skip": true,
     "relativeTarget": "public",
     "commitMessage": "Add static privacy, terms, and cookies pages (Daily Group legal sync)",
     "placeholders": {
       "BRAND_DISPLAY_NAME": "Saxum Works",
       "WEBSITE_URL": "https://saxumworks.com.au",
-      "LEGAL_ENTITY_NAME": "TradesBook Pty Ltd",
-      "ABN": "80 640 074 507",
+      "LEGAL_ENTITY_NAME": "REPLACE_WITH_LAWYER_APPROVED_LEGAL_ENTITY",
+      "ABN": "REPLACE_ABN",
       "DATE_DD_MONTH_YYYY": "11 May 2026",
       "PRIVACY_EMAIL": "admin@saxumworks.com.au",
       "CONTACT_EMAIL": "admin@saxumworks.com.au",
@@ -171,22 +171,22 @@
     }
   },
   {
-    "id": "tradesbook",
-    "gitUrl": "https://github.com/scalekorpau-cmd/tradesbook.git",
+    "id": "dueclean",
+    "gitUrl": "https://github.com/PLACEHOLDER_ORG/REPLACE_REPO_NAME.git",
     "branch": "main",
-    "skip": false,
+    "skip": true,
     "relativeTarget": "public",
     "commitMessage": "Add static privacy, terms, and cookies pages (Daily Group legal sync)",
     "placeholders": {
-      "BRAND_DISPLAY_NAME": "TradesBook",
-      "WEBSITE_URL": "https://tradesbook.com.au",
-      "LEGAL_ENTITY_NAME": "TradesBook Pty Ltd",
-      "ABN": "80 640 074 507",
+      "BRAND_DISPLAY_NAME": "DueClean",
+      "WEBSITE_URL": "https://dueclean.com.au",
+      "LEGAL_ENTITY_NAME": "REPLACE_WITH_LAWYER_APPROVED_LEGAL_ENTITY",
+      "ABN": "REPLACE_ABN",
       "DATE_DD_MONTH_YYYY": "11 May 2026",
-      "PRIVACY_EMAIL": "admin@tradesbook.com.au",
-      "CONTACT_EMAIL": "admin@tradesbook.com.au",
-      "CONTACT_PHONE": "+61 8 6189 4913",
-      "POSTAL_ADDRESS": "Level 28, 140 St Georges Terrace, Perth WA 6000, Australia"
+      "PRIVACY_EMAIL": "admin@dueclean.com.au",
+      "CONTACT_EMAIL": "admin@dueclean.com.au",
+      "CONTACT_PHONE": "+61 8 6384 5466",
+      "POSTAL_ADDRESS": "Greater Perth, Western Australia — all suburbs (Yanchep to Mandurah)"
     }
   }
 ]
